@@ -1,0 +1,17 @@
+{
+  "name": "gatsby-source-google-analytics-reporting-api",
+  "version": "1.0.0",
+  "description": "GatsbyJS Source for Google Anatytics Reporting API",
+  "repository": "antonmedv/gatsby-source-google-analytics-reporting-api",
+  "main": "gatsby-node.js",
+  "keywords": [
+    "gatsby",
+    "analytics",
+    "reporting"
+  ],
+  "author": "Anton Medvedev <anton@medv.io>",
+  "license": "MIT",
+  "dependencies": {
+    "googleapis": "^33.0.0"
+  }
+}
