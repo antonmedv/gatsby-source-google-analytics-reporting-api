@@ -21,7 +21,7 @@ exports.sourceNodes = async ({actions}, configOptions) => {
   for (let [path, totalCount] of result.data.rows) {
     createNode({
       path,
-      totalCount,
+      totalCount: Number(totalCount),
       id: path,
       internal: {
         type: `PageViews`,
